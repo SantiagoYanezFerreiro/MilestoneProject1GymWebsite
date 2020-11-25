@@ -1,85 +1,535 @@
-/*------------------------*/
-
-
-/*BASIC SETUP*/
-
-
-/*------------------------*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    background-color: rgb(249, 249, 249);
-    color: #556;
-    font-family: 'Lato', 'Arial', 'sans-serif';
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-
-/*------------------------*/
-
-
-/*NAV MENU*/
-
-
-/*------------------------*/
-
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 60px;
-    text-align: right;
-}
-
-.main-nav li {
-    display: inline;
-}
-
-.main-nav li a {
-    margin-right: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-}
-
-
-/*------------------------*/
-
-
-/*FOOTER*/
-
-
-/*------------------------*/
-
-footer {
-    margin-top: 30px;
-    background-color: #333;
-    padding: 10px;
-    font-size: 80%;
-}
-
-.footer-nav {
-    list-style: none;
-    float: left;
-}
-
-.footer-nav li,
-.smedia-links li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.smedia-links {
-    float: right;
-}
+            /*------------------------*/
+            /*BASIC SETUP*/
+            /*------------------------*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            html,
+            body {
+                background-color: rgba(249, 249, 249);
+                color: #191718;
+                font-family: 'Lato', 'Arial', 'sans-serif';
+                font-weight: 300;
+                font-size: 20px;
+                text-rendering: optimizeLegibility;
+            }
+            
+            h1,
+            h2 {
+                margin-bottom: 25px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 250%;
+                word-spacing: 2px;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            
+            h1:after {
+                height: 5px;
+                margin: 0 auto;
+                margin-top: 30px;
+                width: 150px;
+                background-color: orange;
+                content: ' ';
+                display: block;
+            }
+            
+            section {
+                margin-bottom: 30px;
+            }
+            
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .centericons {
+                text-align: center;
+                width: 100%;
+            }
+            /*------------------------*/
+            /*NAV MENU*/
+            /*------------------------*/
+            
+            nav {
+                margin-bottom: 0px;
+            }
+            
+            .indexnav {
+                margin-bottom: 0px;
+            }
+            
+            .main-nav {
+                list-style: none;
+                margin-top: 0px;
+                text-align: right;
+                border: 0;
+                letter-spacing: 4px;
+                font-weight: 700;
+            }
+            
+            .main-nav li {
+                display: inline;
+            }
+            
+            .main-nav li a {
+                float: right;
+                margin-right: 50px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #000;
+            }
+            
+            .logo {
+                height: 130px;
+                width: 130px;
+                width: auto;
+                margin-top: 0px;
+                margin-left: 40px;
+            }
+            
+            .jumbotron {
+                font-family: 'Montserrat', sans-serif;
+                padding: 40px 0;
+                background: url(/resources/img/gym5.jpg) center center;
+                background-size: cover;
+                text-align: center;
+                color: #fff;
+                font-weight: 900;
+                position: relative;
+            }
+            /*----HOME PAGE QUOTE----*/
+            
+            .blockquote-jumbotron {
+                font-weight: 700;
+                font-size: 150%;
+                margin-top: 60px;
+            }
+            
+            .quotes {
+                font-size: 400%;
+                font-weight: 700;
+            }
+            /*----BUTTON----*/
+            
+            .ctabutton,
+            .signupbtn {
+                font-size: 100%;
+                padding: 20px;
+                background-color: #e67e22;
+                color: #fff;
+                font-weight: 700;
+                padding: 30px;
+            }
+            
+            .signupbtn {
+                padding: 15px;
+            }
+            /*------------------------*/
+            /*CAROUSEL*/
+            /*------------------------*/
+            
+            #client-testimonial-carousel {
+                min-height: 400px;
+            }
+            
+            .section-testimonials {
+                margin-bottom: 50px;
+            }
+            
+            .section-testimonials p,
+            .section-testimonials h1 {
+                font-weight: 500;
+                color: #000;
+            }
+            
+            .section-testimonials h2 {
+                margin-bottom: 40px;
+            }
+            
+            .carousel-inner {
+                height: 600px;
+                padding: 0px;
+            }
+            
+            .carousel img {
+                width: 150px;
+                height: 200px;
+                margin-bottom: 20px;
+                border-radius: 50%;
+            }
+            
+            .blockquote {
+                margin-top: 0px;
+                color: #000;
+            }
+            
+            .clientname {
+                color: #000;
+                margin: 0px;
+                font-weight: 400;
+            }
+            
+            .client-review-stars {
+                background-color: #000;
+                color: #fff;
+            }
+            
+            .client-review-stars i {
+                color: #fff;
+            }
+            /*------------------------*/
+            /*GENERAL INFO*/
+            /*------------------------*/
+            
+            .section-generalinfo {
+                margin-bottom: 50px;
+            }
+            
+            .section-generalinfo img {
+                margin-bottom: 0px;
+                height: 75%;
+                width: 90%;
+            }
+            
+            .section-generalinfo p {
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 1.8;
+                text-align: left;
+                max-width: 50ch;
+            }
+            
+            .section-generalinfo .row {
+                margin-bottom: -60px;
+            }
+            
+            .textblock1 {
+                margin-top: 70px;
+            }
+            
+            .textblock2 {
+                margin-top: 20px;
+            }
+            /*------------------------*/
+            /*JOIN PAGE*/
+            /*------------------------*/
+            
+            .section-memberships {
+                max-width: 1300px;
+            }
+            
+            .membership-fees {
+                height: 320px;
+            }
+            
+            .membership-box {
+                padding-top: 20px;
+                margin: 20px 0;
+                color: #fff;
+                background: #101110e5;
+                border-radius: 20px;
+                box-shadow: 0 2px 2px #efefef;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+            
+            .membership-box div {
+                padding: 15px;
+                border-bottom: 5px solid #e8e8e8;
+            }
+            
+            .membership-box div:fist-child {
+                background-color: #fff;
+            }
+            
+            .membership-price {
+                font-size: 150%;
+                margin-bottom: 10px;
+                font-weight: 700;
+                color: #e67e22;
+            }
+            
+            .membership-price span,
+            .membership-fee {
+                font-size: 80%;
+                font-weight: 300;
+            }
+            
+            .section-memberships i {
+                font-size: 150%;
+                color: #e67e22;
+            }
+            
+            .membership-description {
+                font-weight: 900;
+            }
+            
+            .faqsbox {
+                border-radius: 7px;
+                width: 600px;
+                margin: 0 auto;
+                background: #fff;
+                text-align: center;
+                margin-bottom: 20px;
+                padding-bottom: 30px;
+            }
+            
+            .faqsbox .headingfaqs {
+                border-radius: 7px 7px 0px 0px;
+                background: #e67e22;
+                padding: 10px;
+                color: #fff;
+                text-align: center;
+                font-family: "Rubik";
+                -webkit-border-radius: 7px 7px 0px 0px;
+                -moz-border-radius: 7px 7px 0px 0px;
+                -ms-border-radius: 7px 7px 0px 0px;
+                -o-border-radius: 7px 7px 0px 0px;
+            }
+            
+            summary {
+                font-weight: 700;
+            }
+            
+            .faqsanswer {
+                word-spacing: 5px;
+                margin-top: 35px;
+                letter-spacing: 2px;
+                margin-bottom: 10px;
+                font-weight: 400;
+            }
+            
+            .faqsanswer p {
+                font-size: 75%;
+                text-align: left;
+                line-height: 2;
+                font-weight: 500;
+            }
+            
+            details {
+                background: #f1efef;
+                padding: 10px 20px;
+                border-radius: 7px;
+                margin: 20px;
+            }
+            /*------------------------*/
+            /*CLASSES  PAGE*/
+            /*------------------------*/
+            
+            .section-classes {
+                line-height: 1;
+            }
+            
+            .classesblock {
+                margin-bottom: 60px;
+            }
+            
+            .card {
+                box-shadow: 5px 5px black;
+            }
+            
+            .card:hover {
+                opacity: 0.8;
+                transform: scale(1.05);
+                -webkit-transform: scale(1.05);
+                -moz-transform: scale(1.05);
+                -ms-transform: scale(1.05);
+                -o-transform: scale(1.05);
+            }
+            
+            .section-classes p {
+                font-size: 80%;
+                font-weight: 400;
+                text-align: left;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+            }
+            
+            .section-services h2 {
+                text-transform: capitalize;
+            }
+            
+            .section-services img {
+                max-height: 400px;
+                margin-bottom: 30px;
+            }
+            
+            .section-services ul {
+                display: inline-block;
+                text-align: left;
+            }
+            
+            .section-services p,
+            .section-services li {
+                font-size: 80%;
+                font-weight: 400;
+                line-height: 1;
+                text-align: left;
+                letter-spacing: 2px;
+                word-spacing: 5px;
+                margin: 10px 0px 10px 30px;
+            }
+            
+            .services {
+                text-align: center;
+            }
+            /*------------------------*/
+            /*CONTACT PAGE*/
+            /*------------------------*/
+            
+            .section-faqs,
+            .section-contactinfo {
+                margin-bottom: 80px;
+            }
+            
+            .fieldtype {
+                margin-top: 0px;
+            }
+            
+            .contactbackground {
+                background-image: url('/resources/img/formphoto.jpg');
+                background-image: center;
+                background-size: 800px;
+                background-repeat: no-repeat;
+            }
+            
+            .contactblock {
+                margin-top: 150px;
+            }
+            
+            .contactblock p {
+                margin: 60px;
+                color: #fff;
+                font-weight: 900;
+            }
+            /*------------------------*/
+            /*FORMS*/
+            /*------------------------*/
+            
+            .contact-form {
+                width: 200%;
+            }
+            
+            .contact-form input {
+                margin-bottom: 20px;
+            }
+            
+            textarea {
+                height: 120px;
+            }
+            
+            .contact-form textarea {
+                margin-bottom: -20px;
+            }
+            
+            .contactinfo i {
+                color: #fff;
+                font-size: 150%;
+            }
+            
+            .fieldtype {
+                margin-bottom: 0px;
+                font-weight: 500;
+            }
+            
+            input[type=text],
+            input[type=email],
+            input[type=tel],
+            textarea {
+                width: 50%;
+                padding: 7px;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+            }
+            
+            input[type=submit] {
+                display: inline-block;
+                padding: 15px 30px;
+                font-weight: 400;
+                text-decoration: none;
+                border-radius: 140px;
+                -webkit-border-radius: 140px;
+                -moz-border-radius: 140px;
+                -ms-border-radius: 140px;
+                -o-border-radius: 140px;
+                background-color: #e67e22;
+                border: 1px solid #e67e22;
+                color: #fff;
+            }
+            
+            .joinform ::placeholder {
+                width: 100%;
+                color: #000;
+            }
+            
+            .joinform placeholder {
+                font-weight: 800;
+            }
+            
+            .joinform textarea {
+                height: 150px;
+            }
+            
+            .modal h2 {
+                color: #fff;
+                font-weight: 900;
+            }
+            
+            .modal-content {
+                background: url(/resources/img/weightlifting3.jpg) center center;
+                background-size: cover;
+            }
+            
+            .modal-content input,
+            .membership-select select {
+                margin: 0 auto;
+                width: 90%;
+            }
+            
+            .membership-select select {
+                padding: 20px;
+                margin-bottom: 40px;
+            }
+            /*------------------------*/
+            /*FOOTER*/
+            /*------------------------*/
+            
+            footer {
+                background-color: rgba(0, 0, 0, 0.87);
+                padding: 20px 0px 20px 0px;
+                font-size: 80%;
+                color: #fff;
+                text-align: center;
+            }
+            
+            .footer-nav {
+                list-style: none;
+            }
+            
+            .footer-nav li,
+            .smedia-links li {
+                list-style: none;
+                display: inline-block;
+                font-size: 200%;
+                margin: 10px;
+            }
+            
+            footer p {
+                font-weight: 700;
+                font-size: 120%;
+            }
+            
+            .smedia-links li i {
+                color: #fff;
+            }

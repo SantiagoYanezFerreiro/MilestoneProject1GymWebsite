@@ -8,26 +8,33 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>TheSpartanFactory</title>
 </head>
 
 <body>
-    <nav class="sticky">
-        <div class="row">
-            <a href="index.html"><img src="resources/img/logo2.png" alt="Company Logo" class="logo" </a>
-                <ul class="main-nav ml-auto">
-                    <li><a href="/Join.html">Join </a></li>
-                    <li><a href="/classes.html">Classes </a></li>
-                    <li><a href="/services.html">Services </a></li>
-                    <li><a href="/contact.html">Contact </a></li>
-                </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg  indexnav">
+
+            <a href="index.html"><img src="resources/img/logo2.png" alt="Company Logo" class="logo"> </a>
+            <ul class=" navbar-nav ml-auto main-nav navbar-right">
+                <li><a href="/join.html">Join </a></li>
+                <li><a href="/classes.html">Classes </a></li>
+                <li><a href="/contact.html">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
 
     <section class="container section-content">
         <div class="row">
             <div class="col-sm-4 col-md-12">
-                <h2>Looking Forward To Hearing From You</h2>
+                <h1>Looking Forward To Hearing From You</h1>
             </div>
         </div>
 
@@ -37,34 +44,36 @@
 
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6 contactbackground">
 
-                <p class="contactinfo ">
-                    <a href="tel:+353 (01) 865 88913 "><i class="fas fa-mobile-alt"></i></a> &nbsp; +353 (01) 865 88913
-                </p>
-                <p class="contactinfo ">
-                    <a href="mailto: spartanstudio@gym.co.ie "><i class="fas fa-envelope"></i></a> &nbsp;Spartanstudio@gym.co.ie
-                </p>
-                </p>
-                <p class="contactinfo "><i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin, D01 Tx011 Ireland</p>
-                <img src="/resources/img/GymBuilding2.jpg " alt="Offices Image " class="img-fluid">
+                <div class="contactblock">
+                    <p class="contactinfo ">
+                        <a href="tel:+353 (01) 865 88913 "><i class="fas fa-mobile-alt"></i></a> &nbsp; +353 (01) 865 88913
+                    </p>
+                    <p class="contactinfo ">
+                        <a href="mailto: spartanstudio@gym.co.ie "><i class="fas fa-envelope"></i></a> &nbsp;Spartanstudio@gym.co.ie
+                    </p>
+
+                    <p class="contactinfo "><i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin D01.</p>
+
+                </div>
             </div>
 
-            <!--<form method="post" id="myForm" action="dynaform.php" onSubmit="alert('Thank you for your feedback.');"-->
-            <div class="col-6">
-                <form method="post " class="contact-form" action="thankyou.html" form onSubmit="return sayHello()">
+
+            <div class="col-12 col-md-6">
+                <form method="post " class="contact-form" action="thankyou.html" form onsubmit="return sayHello()">
                     <div class="fieldtype">
                         <label for="name ">Name</label>
                     </div>
                     <div class="">
-                        <input type="text" name="name " id="name " placeholder="Your name" required>
+                        <input type="text" name="name " id="name" placeholder="Your name" required>
                     </div>
 
                     <div class="fieldtype">
                         <label for="email ">Email</label>
                     </div>
                     <div class="">
-                        <input type="email" name="email " id="email " placeholder="Your email" required>
+                        <input type="email" name="email " id="email" placeholder="Your email" required>
                     </div>
 
                     <div class="fieldtype">
@@ -77,62 +86,95 @@
                         <label>&nbsp;</label>
                     </div>
                     <div class="">
-                        <input type="submit" name="submit " value="Submit ">
+                        <input type="submit" name="submit " value="Submit">
                     </div>
+                </form>
             </div>
         </div>
-        </div>
-        </form>
-
-        </div>
-
-
-        </div>
+        
 
     </section>
-    <script src="resources/js/script.js"></script>
+
+    <section class="container section-faqs">
+        <div class="faqsbox">
+            <p class="headingfaqs">FAQ's</p>
+            <div class="faqs js-waypoint-3">
+
+                <details>
+                    <summary>What should I bring to the Gym?</summary>
+                    <div class="faqsanswer">
+                        <p>For Hygiene Purposes, please don't forget a handtowel. Wiping down equipment after use is mandatory. We also recommend you to bring water with you when exercising.</p>
+                        <p>Then you have access to 100% of the work and you're not attached to us since everything we code is 100% open source which suggests we don't scramble any of our code. </p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>What are the Opening Hours?</summary>
+                    <div class="faqsanswer">
+                        <p>Monday-Friday 5am-22pm</p>
+                        <p>Saturday, Sunday & Bank Holidays 6am-20pm</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Cancelling your Membership</summary>
+                    <div class="faqsanswer">
+                        <p>Recurring Payments will be deduceted automatically from your Bank Account. Despite of that, there is no contract. allowing you to cancel your membership anytime.</p>
+                        <p>If you cancel your membership and rejoin the gym, you will be charged with the joining fee again. For this reason, it's better to pause your membership if you want to take a short break </p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Pausing your Membership</summary>
+                    <div class="faqsanswer">
+                        <p>Pausing takes effect immediately, being the pause fee is 6 € per month</p>
+                        <p>Once you un-pause your membership, you will be again charged your monthly suscription</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>What you need to know</summary>
+                    <div class="faqsanswer">
+                        <p>We are a self-service low cost gym, provider of Top Notch Facilities, Equipment and Services</p>
+                        <p>We are specialised in helping people getting in the best shape of their life and our 20000+ success stories talk for themselves.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
 
     <footer>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 contactinfo ">
-                    <h3>Location</h3>
-                    <p class>30 Upper Bachelors Walk</p>
-                    <p class>Dublin, D01 Tx011 Ireland</p>
-                    <p class>spartanstudio@gym.co.ie</p>
-                    <p class>+353 (01) 865 88913</p>
+            <div class="row ">
+                <div class="col-12 col-md-6 contactinfo ">
+                    <p>80 Candem Walk, D01. Dublin, Ireland.</p>
+                    <p>spartanstudio@gym.co.ie</p>
+                    <p>+353 (01) 865 88913</p>
                 </div>
 
-                <div class="col-4 openingtimestable">
-                    <h3>Opening Times</h3>
-                    <table class="center">
-                        <tr>
-                            <td>Mon-Fri</td>
-                            <td>5am - 22pm</td>
-                        </tr>
-                        <tr>
-                            <td>Sat-Sun</td>
-                            <td>6am - 20pm</td>
-                        </tr>
-                    </table>
-                    </ul>
-                </div>
-
-                <div class="col-4">
+                <div class="col-12 col-md-6 socialmedia ">
                     <h3>Social Media</h3>
-                    <ul class="smedia-links">
-                        <li><a href="# "><i class="fab fa-facebook "></i></a></li>
-                        <li><a href="# "><i class="fab fa-twitter "></i></a></li>
-                        <li><a href="# "><i class="fab fa-instagram "></i></a></li>
+                    <ul class="smedia-links ">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
+                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
                     </ul>
                 </div>
-                </ul>
+                
             </div>
         </div>
-        </div>
+        
     </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 
+    <script src="resources/js/script.js"></script>
 
 </body>
 
