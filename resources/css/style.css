@@ -99,7 +99,7 @@
             .jumbotron {
                 font-family: 'Montserrat', sans-serif;
                 padding: 40px 0;
-                background: url(/resources/img/gym5.jpg) center center;
+                background: url(resources/img/gym5.jpg) center center;
                 background-size: cover;
                 text-align: center;
                 color: #fff;
@@ -398,7 +398,7 @@
             }
             
             .contactbackground {
-                background-image: url('/resources/img/formphoto.jpg');
+                background-image: url('resources/img/formphoto.jpg');
                 background-image: center;
                 background-size: 800px;
                 background-repeat: no-repeat;
@@ -487,7 +487,7 @@
             }
             
             .modal-content {
-                background: url(/resources/img/weightlifting3.jpg) center center;
+                background: url(resources/img/weightlifting3.jpg) center center;
                 background-size: cover;
             }
             
