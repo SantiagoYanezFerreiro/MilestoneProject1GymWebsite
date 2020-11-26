@@ -20,15 +20,19 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  indexnav">
-
+        <!-- Done using Bootstrap Navbars Documentation-->
+        <nav class="navbar navbar-light navbar-expand-md   indexnav">
             <a href="index.html"><img src="resources/img/logo2.png" alt="Company Logo" class="logo"> </a>
-            <ul class=" navbar-nav ml-auto main-nav navbar-right">
-                <li><a href="join.html">Join </a></li>
-                <li><a href="classes.html">Classes </a></li>
-                <li><a href="contact.html">Contact </a></li>
-            </ul>
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trasnformableNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="trasnformableNavbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto main-nav navbar-right">
+                    <li class="nav-item"><a href="join.html">Join </a></li>
+                    <li class="nav-item"><a href="classes.html">Classes </a></li>
+                    <li class="nav-item"><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
