@@ -130,8 +130,19 @@
                 padding: 30px;
             }
             
+            .ctabutton {
+                margin-top: 0px;
+            }
+            
             .signupbtn {
                 padding: 15px;
+            }
+            
+            .formbtn {
+                margin-top: -30px;
+                margin-left: -20px;
+                text-align: left;
+                margin-left
             }
             /*------------------------*/
             /*CAROUSEL*/
@@ -393,10 +404,6 @@
                 margin-bottom: 80px;
             }
             
-            .fieldtype {
-                margin-top: 0px;
-            }
-            
             .contactbackground {
                 background-image: url("../img/formphoto.jpg");
                 background-image: center;
@@ -405,7 +412,7 @@
             }
             
             .contactblock {
-                margin-top: 150px;
+                margin-top: 120px;
             }
             
             .contactblock p {
@@ -429,18 +436,14 @@
                 height: 120px;
             }
             
-            .contact-form textarea {
-                margin-bottom: -20px;
+            .fieldtype {
+                font-weight: 500;
+                margin-bottom: 0px;
             }
             
             .contactinfo i {
                 color: #fff;
                 font-size: 150%;
-            }
-            
-            .fieldtype {
-                margin-bottom: 0px;
-                font-weight: 500;
             }
             
             input[type=text],
@@ -451,6 +454,7 @@
                 padding: 7px;
                 border-radius: 3px;
                 border: 1px solid #ccc;
+                margin-top: 20px;
             }
             
             input[type=submit] {
