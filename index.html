@@ -24,19 +24,34 @@
     <title>TheSpartanFactory</title>
 </head>
 
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  indexnav">
-
+        <!-- Done using Bootstrap Navbars Documentation-->
+        <nav class="navbar navbar-light navbar-expand-md   indexnav">
             <a href="index.html"><img src="resources/img/logo2.png" alt="Company Logo" class="logo"> </a>
+<<<<<<< HEAD
             <ul class=" navbar-nav ml-auto main-nav navbar-right">
                 <li><a href="join.html">Join </a></li>
                 <li><a href="classes.html">Classes </a></li>
                 <li><a href="contact.html">Contact </a></li>
             </ul>
 
+=======
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trasnformableNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="trasnformableNavbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto main-nav navbar-right">
+                    <li class="nav-item"><a href="Join.html">Join </a></li>
+                    <li class="nav-item"><a href="classes.html">Classes </a></li>
+                    <li class="nav-item"><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+>>>>>>> 00f3ac9... Used Media Queries to improve responsiveness
         </nav>
     </header>
+
     <section class="jumbotron jumbotron-fluid ">
         <section class="container-fluid section-cta">
             <div class="row">
@@ -168,22 +183,22 @@
 
     <section class="container section-generalinfo">
         <div class="row">
-            <div class="col-md-6 textblock1">
+            <!--col-6 col-md-12 order-2 order-md-12-->
+            <div class="col-12 col-md-6 textblock">
                 <p> At Spartan Studio, we believe in a healthy lifestyle that makes you thrive in every aspect of your life.</p>
                 <p> Whether you are looking for becoming stronger, leaner, or just simply feeling better, we have you covered.</p>
             </div>
-            <div class="col-md-6 mt-4 ">
+            <div class="col-12 col-md-6 mt-4  ">
                 <img src="resources/img/weightlifting2.jpg " alt="gymimage " class="img-fluid ">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 ">
+            <div class="col-12 order-0 col-md-6  ">
                 <img src="resources/img/weightlifting.jpg " alt=" gymimage " class="img-fluid ">
             </div>
-            <div class=" col-md-6 textblock2">
-                <p>We offer you the best fitness facilities, classes & services. </p>
+            <div class="col-12 order-1 col-md-6 textblock2">
+                <p>We offer you the best fitness facilities, classes & services to help you become your best version. </p>
                 <p>Our professional team is educated in the most effective industry techniques and trends.</p>
-                <p>Let us help you to become your best physical and mental version!</p>
             </div>
         </div>
 

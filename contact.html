@@ -20,15 +20,19 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  indexnav">
-
+        <!-- Done using Bootstrap Navbars Documentation-->
+        <nav class="navbar navbar-light navbar-expand-md   indexnav">
             <a href="index.html"><img src="resources/img/logo2.png" alt="Company Logo" class="logo"> </a>
-            <ul class=" navbar-nav ml-auto main-nav navbar-right">
-                <li><a href="join.html">Join </a></li>
-                <li><a href="classes.html">Classes </a></li>
-                <li><a href="contact.html">Contact </a></li>
-            </ul>
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trasnformableNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="trasnformableNavbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto main-nav navbar-right">
+                    <li class="nav-item"><a href="Join.html">Join </a></li>
+                    <li class="nav-item"><a href="classes.html">Classes </a></li>
+                    <li class="nav-item"><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -42,18 +46,18 @@
     </section>
 
     <section class="container section-contactinfo">
-        <div class="row">
+        <div class="row ">
             <div class="col-12 col-md-6 contactbackground">
 
                 <div class="contactblock">
-                    <p class="contactinfo ">
-                        <a href="tel:+353 (01) 865 88913 "><i class="fas fa-mobile-alt"></i></a> &nbsp; +353 (01) 865 88913
+                    <p class="contactinfo">
+                        <a href="tel:+353 (01) 865 88913"><i class="fas fa-mobile-alt"></i></a> &nbsp; +353 (01) 865 88913
                     </p>
-                    <p class="contactinfo ">
-                        <a href="mailto: spartanstudio@gym.co.ie "><i class="fas fa-envelope"></i></a> &nbsp;Spartanstudio@gym.co.ie
+                    <p class="contactinfo">
+                        <a href="mailto: spartanstudio@gym.co.ie"><i class="fas fa-envelope"></i></a> &nbsp;Spartanstudio@gym.co.ie
                     </p>
 
-                    <p class="contactinfo "><i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin D01.</p>
+                    <p class="contactinfo"><i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin D01.</p>
 
                 </div>
             </div>
@@ -102,8 +106,9 @@
                 <details>
                     <summary>What should I bring to the Gym?</summary>
                     <div class="faqsanswer">
-                        <p>For Hygiene Purposes, please don't forget a handtowel. Wiping down equipment after use is mandatory. We also recommend you to bring water with you when exercising.</p>
-                        <p>Then you have access to 100% of the work and you're not attached to us since everything we code is 100% open source which suggests we don't scramble any of our code. </p>
+                        <p>Please don't forget your handtowel. Wiping down equipment after use is mandatory.</p>
+                        <p>We also recommend you to bring water with you when exercising.</p>
+                        <p>Last, don't forget to wear proper gymwear</p>
                     </div>
                 </details>
 
@@ -118,8 +123,8 @@
                 <details>
                     <summary>Cancelling your Membership</summary>
                     <div class="faqsanswer">
-                        <p>Recurring Payments will be deduceted automatically from your Bank Account. Despite of that, there is no contract. allowing you to cancel your membership anytime.</p>
-                        <p>If you cancel your membership and rejoin the gym, you will be charged with the joining fee again. For this reason, it's better to pause your membership if you want to take a short break </p>
+                        <p>You can cancel your membership anytime by giving at least 2 weeks notice.</p>
+                        <p>If you cancel your membership and rejoin the gym, you will be charged with the joining fee again. In this case it's better to pause it instead.</p>
                     </div>
                 </details>
 
