@@ -7,7 +7,9 @@ The Fitness Industry is quite competitive so it’s very important for gyms to h
 
 ### Company Goals:
 •	Increase Brand Awareness and Brand Image.
+
 •	Drive sales in the form of first contact (via the contact page) that will then lead to a sales call with the artist.
+
 •	Excellent UX to keep potential clients on site long enough to fill out the contact form.
 
 ### Customers goals:
