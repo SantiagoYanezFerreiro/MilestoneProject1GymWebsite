@@ -1,6 +1,8 @@
 # Code Institute: Milestone Project 1
  
-Spartan Factory is a website for a fictional gym based in Dublin, Ireland.  The website features its pricing plans, a FAQ section, the classes and their timetables, the services if offers, testimonials, pricing tables and a contact page with phone, email and address information as well as a form for potential queries. The primary goals of the site are to lead potential customers to the site and get to know the gym, increasing the online presence of the company and its revenue. The site also acts as an information resource to actual members of the gym, while saving money in customer support services.
+Spartan Factory is a website for a fictional gym based in Dublin, Ireland. It's a gym that offers all services people need to get in the best shape of their lives and thrive mentally and physically (Nutrition, Personal Training, Weight Training & Cardio Facilities, Classes, etc). 
+The website features its pricing plans, a FAQ section, the classes and their timetables, the services if offers, testimonials, pricing tables and a contact page with phone, email and address information as well as a form for potential queries. The primary goals of the site are to lead potential customers to the site and get to know the gym, increasing the online presence of the company and its revenue. The site also acts as an information resource to actual members of the gym, while saving money in customer support services.
+
 The Fitness Industry is quite competitive so it’s very important for gyms to have a good website. This site tries to include all information potential customers would need to decide whether this business fulfils their needs or not, while dividing the information in readable smaller sections and facilitating potential clients to get in touch with the company. 
  
 ## Goals
@@ -139,46 +141,46 @@ Contact Page
 ## Testing
 ### User Story Testing 
 
-#### •	Users should be able to check the classes
+•	Users should be able to check the classes
 Click on Classes Section. Classes are listed along with pictures and information about them.
 
-#### •	Users should be able to check the services
+•	Users should be able to check the services
 Click on Join Section and scroll down, services are listed after the membership section
 
-#### •	Users should be able to join the gym choosing their desired plan.
+•	Users should be able to join the gym choosing their desired plan.
 There are two ways to do it: A) User should click on the Join Now button for this purpose. This button is present on the Join Page, which can be accessed by clicking on the company logo, and on the membership page, where the button is displayed on every membership. After clicking on the button, users should enter their contact information in the form entering their contact information and selecting the desired membership.
 
-#### •	Users should be able to see customer reviews and general information of the gym to increase their interest. 
+•	Users should be able to see customer reviews and general information of the gym to increase their interest. 
 Customer Reviews are displayed on the home page, which can be accessed by accessing the main website URL or clicking on the Logo. Then the jumbotron should be scrolled down until the carrousel is reached. It contains several customer reviews, with their name, pictures and review quantified in stars. It also rotates automatically, allowing users to see several of them without necesarily having to click on the carrousel circles.
 
-#### •	User should be able to get in touch with the company through a form for their different requests
+•	User should be able to get in touch with the company through a form for their different requests
 It can be done by accessing the contact section and filling the form on the top-right part of the page. The form checks all fields to assure that they are filled properly.
 
-#### •	Users should have access to contact information (location, email and address) and be able to also get in touch with the company through a form.
+•	Users should have access to contact information (location, email and address) and be able to also get in touch with the company through a form.
 Contact Information is displayed on the footer of every page but the contact one. To access it customers only need to scroll down to the very bottom on any of these pages. It is also present on the upper part of the contact section next to the form. Users can also click on the phone or email icon to call or send an email from their devices using programs like their email account or Skype.
 
-#### •	User should be able to have access to a FAQ sections to get their frequent questions answered.
+•	User should be able to have access to a FAQ sections to get their frequent questions answered.
 To access the FAQ’s section users should access the contact page through the nav menu and go to the bottom part of it. There they can check 
  
 
 ## Responsiveness
-### Navigation Menu: It becomes a Hamburger Menu on small devices.
+Navigation Menu: It becomes a Hamburger Menu on small devices.
 
-### Didn’t modify the modal form jumbotron, testimonials and thankyou page since they look fine with occupying most of the screen for all screen sizes (col-lg-12).
+Didn’t modify the modal form jumbotron, testimonials and thankyou page since they look fine with occupying most of the screen for all screen sizes (col-lg-12).
 
-### General Info: Used order to alter the order of the elements in small devices. I thought it would look better to place first a text block, then the two images and finally the last text block. Each text block/img occupies the entire screen size (col-12) on small devices.  Also reduced the font-size on medium and small devices.
+General Info: Used order to alter the order of the elements in small devices. I thought it would look better to place first a text block, then the two images and finally the last text block. Each text block/img occupies the entire screen size (col-12) on small devices.  Also reduced the font-size on medium and small devices.
 
-### Footer: Each section occupies the entire screen width on small devices (col-12) and the elements get stacked one below the other.
+Footer: Each section occupies the entire screen width on small devices (col-12) and the elements get stacked one below the other.
 
-### Classes: On medium devices two classes occupy the entire screen width and on small devices each class takes the entire width (col-12). Reduced font-size on small tables and phones since it looked too big on these devices.
+Classes: On medium devices two classes occupy the entire screen width and on small devices each class takes the entire width (col-12). Reduced font-size on small tables and phones since it looked too big on these devices.
 
-### Memberships and Services: Each of them occupies half of the screen width on medium devices, so two get display alongside, and the entire width on small devices. Furthermore, added a big of margin for membership-boxes on small devices.
+Memberships and Services: Each of them occupies half of the screen width on medium devices, so two get display alongside, and the entire width on small devices. Furthermore, added a big of margin for membership-boxes on small devices.
 
-### FAQ’s: Just reduced the screen size and the font-size for small tablets and phones so that it looks better.
+FAQ’s: Just reduced the screen size and the font-size for small tablets and phones so that it looks better.
 
-### Contact Info and Form sections: They occupy the entire screen width on small devices and get placed one below the other on them.
+Contact Info and Form sections: They occupy the entire screen width on small devices and get placed one below the other on them.
 
-### Heading Tags -> Reduced Font-Sizes for Small Phones and modified margins. The font-size was too big for these screens. They occupy the entire width (col-12) on all devices and are centered.
+Heading Tags -> Reduced Font-Sizes for Small Phones and modified margins. The font-size was too big for these screens. They occupy the entire width (col-12) on all devices and are centered.
 
 
 ## Links and images
