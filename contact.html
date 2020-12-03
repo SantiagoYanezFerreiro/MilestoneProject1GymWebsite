@@ -36,49 +36,39 @@
         </nav>
     </header>
 
-    <section class="container section-content">
+    <section class="container section-contactinfo">
         <div class="row">
             <div class="col-12">
                 <h1>Looking Forward To Hearing From You</h1>
             </div>
         </div>
-
-    </section>
-
-    <section class="container section-contactinfo">
         <div class="row ">
             <div class="col-12 col-md-6 contactbackground">
-
                 <div class="contactblock">
                     <p class="contactinfo">
                         <a href="tel:+353 (01) 865 88913"><i class="fas fa-mobile-alt"></i></a> &nbsp; +353 (01) 865 88913
                     </p>
                     <p class="contactinfo">
-                        <a href="mailto: spartanstudio@gym.co.ie"><i class="fas fa-envelope"></i></a> &nbsp;Spartanstudio@gym.co.ie
+                        <a href="mailto: spartanstudio@gym.co.ie"><i class="fas fa-envelope"></i></a> &nbsp; spartanstudio@gym.co.ie
                     </p>
-
-                    <p class="contactinfo"><i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin D01.</p>
-
+                    <p class="contactinfo">
+                        <i class="fas fa-map-marker-alt"></i> &nbsp; 30 Upper Bachelors Walk, Dublin D01.</p>
                 </div>
             </div>
-
-
             <div class="col-12 col-md-6">
-                <form method="post " class="contact-form" action="thankyou.html" form onsubmit="return sayHello()">
+                <form method="post " class="contact-form" action="thankyou.html" target="_blank">
                     <div class="fieldtype">
                         <label for="name ">Name</label>
                     </div>
                     <div class="">
                         <input type="text" name="name " id="name" placeholder="Your name" required>
                     </div>
-
                     <div class="fieldtype">
                         <label for="email ">Email</label>
                     </div>
                     <div class="">
                         <input type="email" name="email " id="email" placeholder="Your email" required>
                     </div>
-
                     <div class="fieldtype">
                         Drop us a Message
                     </div>
@@ -94,15 +84,12 @@
                 </form>
             </div>
         </div>
-
-
     </section>
 
     <section class="container section-faqs">
         <div class="faqsbox">
             <p class="headingfaqs">FAQ's</p>
             <div class="faqs js-waypoint-3">
-
                 <details>
                     <summary>What should I bring to the Gym?</summary>
                     <div class="faqsanswer">
@@ -111,7 +98,6 @@
                         <p>Last, don't forget to wear proper gymwear</p>
                     </div>
                 </details>
-
                 <details>
                     <summary>What are the Opening Hours?</summary>
                     <div class="faqsanswer">
@@ -119,7 +105,6 @@
                         <p>Saturday, Sunday & Bank Holidays 6am-20pm</p>
                     </div>
                 </details>
-
                 <details>
                     <summary>Cancelling your Membership</summary>
                     <div class="faqsanswer">
@@ -127,7 +112,6 @@
                         <p>If you cancel your membership and rejoin the gym, you will be charged with the joining fee again. In this case it's better to pause it instead.</p>
                     </div>
                 </details>
-
                 <details>
                     <summary>Pausing your Membership</summary>
                     <div class="faqsanswer">
@@ -135,7 +119,6 @@
                         <p>Once you un-pause your membership, you will be again charged your monthly suscription</p>
                     </div>
                 </details>
-
                 <details>
                     <summary>What you need to know</summary>
                     <div class="faqsanswer">
@@ -147,28 +130,23 @@
         </div>
     </section>
 
-
     <footer>
         <div class="container-fluid">
-            <div class="row ">
-                <div class="col-12 col-md-6 contactinfo ">
-                    <p>80 Candem Walk, D01. Dublin, Ireland.</p>
-                    <p>spartanstudio@gym.co.ie</p>
-                    <p>+353 (01) 865 88913</p>
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-6 copyrightsinfo">
+                    <p class="copyrights-text">Copyright © 2020 by SpartanStudios.</p>
                 </div>
-
-                <div class="col-12 col-md-6 socialmedia ">
-                    <ul class="smedia-links ">
+                <div class="col-12 col-md-6 socialmedia">
+                    <ul class="smedia-links">
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
                         <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
                         <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
-
     </footer>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -176,8 +154,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-
     <script src="resources/js/script.js"></script>
+    <script>
+        $('details').click(function(event) {
+            $('details').not(this).removeAttr("open");
+        });
+    </script>
 
 </body>
 
