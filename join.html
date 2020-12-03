@@ -36,17 +36,13 @@
         </nav>
     </header>
 
-    <section class="container section-content">
+    <section class="container-fluid section-memberships">
         <div class="row">
             <div class="col-12">
                 <h1>Become Spartan Now!</h1>
             </div>
         </div>
-
-    </section>
-
-    <section class="container-fluid section-memberships">
-        <div class="row justify-content-center text-center ">
+        <div class="row justify-content-center text-center memberships">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="membership-box basic">
                     <div class="membership-fees">
@@ -56,18 +52,16 @@
                         <p class="membership-price">400 € <span> per year</span></p>
                         <p class="membership-fee">+25€ Joining Fee</p>
                     </div>
-                    <div>
+                    <div class="membership-type">
                         <p class="membership-description"><i class="fa fa-star-half" aria-hidden="true"></i> 24/7 Access to the Gym</p>
                     </div>
                     <div>
-                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinustmodal">
+                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinusmodal">
                             Join Us Now!
                         </button>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="membership-box premium">
                     <div class="membership-fees">
@@ -76,13 +70,12 @@
                         <p class="membership-fee">+25€ Joining Fee</p>
                         <p class="membership-price">1050 € <span> per year</span></p>
                         <p class="membership-fee">+25€ Joining Fee</p>
-
                     </div>
-                    <div>
+                    <div class="membership-type">
                         <p class="membership-description"><i class="fa fa-star" aria-hidden="true"></i> No-limit Access to all Services </p>
                     </div>
                     <div>
-                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinustmodal">
+                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinusmodal">
                             Join Us Now!
                         </button>
                     </div>
@@ -97,36 +90,33 @@
                         <p class="membership-price">20 € <span>for 1 Week</span></p>
                         <p class="membership-price">30 € <span>for 2 Weeks</span></p>
                     </div>
-                    <div>
+                    <div class="membership-type">
                         <p class="membership-description"><i class="fa fa-check" aria-hidden="true"></i> Fully Flexible Plans!
                         </p>
                     </div>
                     <div>
-                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinustmodal">
+                        <button class="btn ctabutton" data-toggle="modal" data-target="#joinusmodal">
                             Join Us Now!
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section>
-
-
-        <div class="modal" tabindex="-1" role="dialog" id="joinustmodal">
+    <section class="section-modal">
+        <div class="modal" tabindex="-1" role="dialog" id="joinusmodal">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2>Joining Form</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+                                <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <div class="center-form">
-                            <form class="joinform">
+                            <form class="joinform" target="_blank" action="thankyou.html">
                                 <div class="form-group">
                                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required /><br>
                                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required /><br>
@@ -134,14 +124,14 @@
                                     <input type="address" name="address" id="address" class="form-control" placeholder="Address" required /><br>
                                     <div class="membership-select text-center">
                                         <select>
-                                            <option value="0">Membership Type:</option>
-                                            <option value="1 ">Basic</option>
-                                            <option value="2 ">Premium</option>
-                                            <option value="3 ">Flexible 1 Day</option>
-                                            <option value="4 ">Flexible 2 Days</option>
-                                            <option value="5 ">Flexible 1 Week</option>
-                                            <option value="6 ">Flexible 2 Weeks</option>
-                                            </select>
+                                            <option value="0 ">Membership Type:</option>
+                                            <option value="1 ">Basic Spartan</option>
+                                            <option value="2 ">Premium Spartan</option>
+                                            <option value="3 ">Flexible Spartan - 1 Day</option>
+                                            <option value="4 ">Flexible Spartan - 2 Days</option>
+                                            <option value="5 ">Flexible Spartan - 1 Week</option>
+                                            <option value="6 ">Flexible Spartan - 2 Weeks</option>
+                                      </select>
                                     </div>
                                     <textarea rows="5 " name="projectsummary " id="projectsummary " class="form-control " placeholder="Your Message " required></textarea><br>
                                     <div class="form-row text-center ">
@@ -149,7 +139,6 @@
                                             <button type="submit " class="btn signupbtn ">Become a Member</button>
                                         </div>
                                     </div>
-
                                 </div>
                             </form>
                         </div>
@@ -159,16 +148,12 @@
         </div>
     </section>
 
-    <section class="container section-content">
+    <section class="container section-services">
         <div class="row">
             <div class="col-12">
                 <h1>Our Services</h1>
             </div>
         </div>
-
-    </section>
-
-    <section class="container section-services">
         <div class="row justify-content-center text-center services">
             <div class="col-12 col-md-6 col-lg-4">
                 <h2>Nutrition</h2>
@@ -179,16 +164,15 @@
                     <li>Special Nutritional Needs</li>
                     <li>Mindful Eating</li>
                 </ul>
-
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <h2>Personal Trainer</h2>
                 <img src="resources/img/personalTrainer3.jpg" alt="gymimage" class="img-fluid">
                 <ul>
-                    <li>Fitness Consultations</li>
-                    <li>Team Workouts</li>
                     <li>Special Forces Preparation</li>
-                    <li>Customised Planning Creation</li>
+                    <li>Fitness Consultations</li>
+                    <li>Customised Plans</li>
+                    <li>Team Workouts</li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
@@ -200,22 +184,18 @@
                     <li>Daily WOD & Classes</li>
                     <li>Coaching</li>
                 </ul>
-
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container-fluid ">
-            <div class="row ">
+            <div class="row justify-content-center text-center">
                 <div class="col-12 col-md-6 contactinfo ">
                     <p>80 Candem Walk, D01. Dublin, Ireland.</p>
                     <p>spartanstudio@gym.co.ie</p>
                     <p>+353 (01) 865 88913</p>
-
                 </div>
-
-
                 <div class="col-12 col-md-6  socialmedia ">
                     <ul class="smedia-links ">
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
@@ -223,11 +203,10 @@
                         <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
-
     </footer>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
