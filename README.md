@@ -245,7 +245,9 @@ Follow these steps to clone the repository on GitHub:
 
 •	Used Google Fonts for the main font of the site
 
-•	Bootstrap Navbar Documentation helped me to create the navigation menu
+•	Bootstrap Navbar Documentation helped me to create the navigation menu.
+
+•   Also used the forms from ![md bootsrap](https://mdbootstrap.com/docs/jquery/modals/forms/) as model for my modal.
 
 •	Most of the images are from Unsplash.com, a great website for high-quality images.
 
