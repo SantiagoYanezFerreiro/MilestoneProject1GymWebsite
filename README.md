@@ -31,17 +31,20 @@ The Fitness Industry is quite competitive so it’s very important for gyms to h
 •	Easy ways to contact the gym via phone, email or directly through the website.
 
 ## User Stories
-•	Users should be able to check the classes, timetables & services. 
 
-•	Users should be able to join the gym choosing their desired plan.
+• Users should be able to check the classes.
 
-•	Users should be able to see customer reviews and general information of the gym to increase their interest. 
+• Users should be able to check the services 
 
-•	A CTA button should be displayed to increase the chances of user joining the gym. 
+• Users should be able to see customer reviews and general information of the gym.
+
+• Users should be able to join the gym choosing their desired plan. 
+
+• User should be able to get in touch with the company through a form for their different requests.
+
+• User should be able to have access to a FAQ sections to get their frequent questions answered. 
 
 •	Users should have access to contact information (location, email and address) and be able to also get in touch with the company through a form
-
-•	User should be able to have access to a FAQ sections to get their frequent questions answered.
 
 ## Website Structure
 Each page features a responsive navigation bar with the logo (top left) and a menu to access the pages of the site. Each page has also a footer with social media links, location, opening times and contact information.
@@ -124,15 +127,15 @@ Thank you page that appears after a visitors has succesfully submited a form.
    
 ### Classes Page
    
-![Classes Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/lwireframeclasses.png)
+![Classes Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclasses.png)
 
 ![Classes Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclassesmobile.png)
 
 ### Contact Page
    
-![Contact Page](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/wireframecontact.png)
+![Contact Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframecontact.png)
 
-![Contact Page Mobile](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/wireframecontactmobile.png)
+![Contact Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframecontactmobile.png)
 
 ## Technologies Used
 •	This project uses HTML, CSS & JavaScript programming languages.
