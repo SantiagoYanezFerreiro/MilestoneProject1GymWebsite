@@ -1,4 +1,12 @@
 # Code Institute: Milestone Project 1
+
+!(https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/logo2.png)
+
+![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
+
+![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
+
+![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/responsivedesign.png)
  
 Spartan Factory is a website for a fictional gym based in Dublin, Ireland. It's a gym that offers all services people need to get in the best shape of their lives and thrive mentally and physically (Nutrition, Personal Training, Weight Training & Cardio Facilities, Classes, etc). 
 The website features its pricing plans, a FAQ section, the classes and their timetables, the services if offers, testimonials, pricing tables and a contact page with phone, email and address information as well as a form for potential queries. The primary goals of the site are to lead potential customers to the site and get to know the gym, increasing the online presence of the company and its revenue. The site also acts as an information resource to actual members of the gym, while saving money in customer support services.
@@ -36,13 +44,15 @@ The Fitness Industry is quite competitive so it’s very important for gyms to h
 
 ## Website Structure
 Each page features a responsive navigation bar with the logo (top left) and a menu to access the pages of the site. Each page has also a footer with social media links, location, opening times and contact information.
-Home
+Home.
+
 The Home page features a jumbotron with a CTA Button “Join the Gym”. Whenever this button gets clicked the visitors access a form requesting personal information that they must fill to join the gym. The button is inside a jumbotron with a Fitness Model Image and a quote to increase the likelihood visitors will click it.
-Below the button, there is a carrousel with customer testimonials which reinforces the good image of the gym. It rotates automatically so that visitors can see several reviews.
+Below the button, there is a carrousel with customer testimonials which reinforces the good image of the gym. 
+It rotates automatically so that visitors can see several reviews.
 On the bottom of the home page, there is some general gym information to sum up the main goals of the gym and its services with two pictures of two athletes working out in the gym.
 
 ### Join
-The Join Page features the membership plans of the gym with their prices and what they include. There is a basic cheap plan to just access the gym facilities. The premium plan grants access to all services and classes in addition. Lastly the flexible plan is meant to people that want to go to the gym just 1 day, 2 days or 1 week.
+The Join Page features the membership plans of the gym with their prices and what they include. There is a basic cheap plan to just access the gym facilities. The premium plan grants access to all services and classes in addition. Lastly. the flexible plan is meant to people that want to go to the gym just 1 day, 2 days or 1 week.
 The FAQ’s section is meant to reduce customer support expenses by allowing visitors to get frequent questions answered without the need to contact the company.
 
 ### Classes
@@ -59,58 +69,69 @@ Page with a form so that visitors can submit queries through it and contact info
 Thank you page that appears after a visitors has succesfully submited a form.
 
 ## Existing Features
-•	Header Logo – Present on every page, clicking on it allow users to access the home page.
 
-•	Header Navigation Bar – Allows visitors to easily navigate all the website's pages and access the desired section/information.
+•	**Header Logo** – Present on every page, clicking on it allow users to access the home page.
 
-•	Footer – With contact information, social media links and opening times present on every page.
+•	**Header Navigation Bar** – Allows visitors to easily navigate all the website's pages and access the desired section/information.
 
-•	Call to Action Button – Users have the option to sign up for the gym by clicking this button and filling the form.
+•	**Footer** – With contact information, social media links and opening times present on every page.
 
-•	Customer Testimonials – Carrousel with rotating reviews.
+•	**Call to Action Button** – Users have the option to sign up for the gym by clicking this button and filling the form.
 
-•	Informational Section – General overview of the goals of the gym and what the gym offers with photos of two athletes working out.
+•	**Customer Testimonials** – Carrousel with rotating reviews.
 
-•	Pricing Tables - Allow potential clients to understand the pricing of custom artwork by structuring it in an logical way.
+•	**Informational Section** – General overview of the goals of the gym and what the gym offers with photos of two athletes working out.
 
-•	FAQs – Section with Frequent Asked questions and their answers.
+•	**Pricing Tables** - Allow potential clients to understand the pricing of custom artwork by structuring it in an logical way.
 
-•	Classes Cards – Type of classes with info and pictures about them.
+•	**FAQs** – Section with Frequent Asked questions and their answers.
 
-•	Timetables – Of the classes the gym offers.
+•	**Classes Cards** – Type of classes with info and pictures about them.
 
-•	Services – List of special services the gym offers and its specialities on each of them.
+•	**Timetables** – Of the classes the gym offers.
 
-•	About Page - Allows potential clients to connect with the artist without overloading them with information.
+•	**Services** – List of special services the gym offers and its specialities on each of them.
 
-•	Contact Form - Allows potential clients to ask questions, and/or make the first step in their ordering process.
+•	**About Page** - Allows potential clients to connect with the artist without overloading them with information.
+
+•	**Contact Form** - Allows potential clients to ask questions, and/or make the first step in their ordering process.
 
 ## Features to Implement in the future
-•	Fitness Blog – Fitness & Nutrition articles relevant to gym members. Topics will include Supplements, Nutrition, Workouts, Injury Prevention, etc.
 
-•	Website with an option to choose the language of it – To appeal non-native English speakers’ residents in Ireland.
+•	**Fitness Blog** – Fitness & Nutrition articles relevant to gym members. Topics will include Supplements, Nutrition, Workouts, Injury Prevention, etc.
 
-•	Users section accessible through a log in form. Will be used for online classes, tips for every class, booking services reservations and classes and publish gym social events.
+•	**Website with an option to choose the language** – To appeal non-native English speakers’ residents in Ireland.
 
-•	Careers Section to post job opening and receive CVs from applicants.
+•	**Users section accessible through a log in form.** Will be used for online classes, tips for every class, booking services reservations and classes and publish gym social events.
+
+•	**Careers Section** to post job opening and receive CVs from applicants.
 
 Wireframes
 Home Page
    
+![Home Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehome.png))
 
-
-
+![Home Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehomemobile.png))
 
 
 Join Page
+
+![Join Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoin.png))
+
+![Join Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoinmobile.png))
    
 Classes Page
    
+![Classes Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/lwireframeclasses.png))
 
+![Classes Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclassesmobile.png))
 
 
 Contact Page
    
+![Contact Page](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/wireframecontact.png)
+
+![Contact Page Mobile](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/wireframecontactmobile.png)
 
 ## Technologies Used
 •	This project uses HTML, CSS & JavaScript programming languages.
@@ -164,23 +185,21 @@ To access the FAQ’s section users should access the contact page through the n
  
 
 ## Responsiveness
-Navigation Menu: It becomes a Hamburger Menu on small devices.
+**Navigation Menu:** It becomes a Hamburger Menu on small devices.
 
-Didn’t modify the modal form jumbotron, testimonials and thankyou page since they look fine with occupying most of the screen for all screen sizes (col-lg-12).
+**General Info:** Used order to alter the order of the elements in small devices. I thought it would look better to place first a text block, then the two images and finally the last text block. Each text block/img occupies the entire screen size (col-12) on small devices.  Also reduced the font-size on medium and small devices.
 
-General Info: Used order to alter the order of the elements in small devices. I thought it would look better to place first a text block, then the two images and finally the last text block. Each text block/img occupies the entire screen size (col-12) on small devices.  Also reduced the font-size on medium and small devices.
+**Footer:** Each section occupies the entire screen width on small devices (col-12) and the elements get stacked one below the other.
 
-Footer: Each section occupies the entire screen width on small devices (col-12) and the elements get stacked one below the other.
+**Classes:** On medium devices two classes occupy the entire screen width and on small devices each class takes the entire width (col-12). Reduced font-size on small tables and phones since it looked too big on these devices.
 
-Classes: On medium devices two classes occupy the entire screen width and on small devices each class takes the entire width (col-12). Reduced font-size on small tables and phones since it looked too big on these devices.
+**Memberships and Services:** Each of them occupies half of the screen width on medium devices, so two get display alongside, and the entire width on small devices. Furthermore, added a big of margin for membership-boxes on small devices.
 
-Memberships and Services: Each of them occupies half of the screen width on medium devices, so two get display alongside, and the entire width on small devices. Furthermore, added a big of margin for membership-boxes on small devices.
+**FAQ’s:** Just reduced the screen size and the font-size for small tablets and phones so that it looks better.
 
-FAQ’s: Just reduced the screen size and the font-size for small tablets and phones so that it looks better.
+**Contact Info and Form sections:** They occupy the entire screen width on small devices and get placed one below the other on them.
 
-Contact Info and Form sections: They occupy the entire screen width on small devices and get placed one below the other on them.
-
-Heading Tags -> Reduced Font-Sizes for Small Phones and modified margins. The font-size was too big for these screens. They occupy the entire width (col-12) on all devices and are centered.
+**Heading Tags:** Reduced Font-Sizes for Small Phones and modified margins. The font-size was too big for these screens. They occupy the entire width (col-12) on all devices and are centered.
 
 
 ## Links and images
@@ -229,7 +248,7 @@ Follow these steps to clone the repository on GitHub:
 ## Media
 •	All the photos used in this site were obtained from Unsplash.
 
-•	The favicon was created using the resource https://realfavicongenerator.net/
+•	The favicon was created using the resource ![Favicon](https://realfavicongenerator.net/)
 
 ## Code
 •	CSS code for shadows and hover responsiveness of gallery images was originally taken from Material Design Box Shadows| A Pen By Samuel Thornton and then edited.
