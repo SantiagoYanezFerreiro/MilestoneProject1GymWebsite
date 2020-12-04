@@ -1,6 +1,7 @@
 # Code Institute: Milestone Project 1
 
-!(https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/logo2.png)
+![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/logo2.png)
+
 
 ![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
 
@@ -106,28 +107,28 @@ Thank you page that appears after a visitors has succesfully submited a form.
 
 •	**Careers Section** to post job opening and receive CVs from applicants.
 
-Wireframes
-Home Page
+## wireframes
+
+### Home Page
    
-![Home Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehome.png))
+![Home Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehome.png)
 
-![Home Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehomemobile.png))
+![Home Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehomemobile.png)
 
 
-Join Page
+### Join Page
 
-![Join Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoin.png))
+![Join Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoin.png)
 
-![Join Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoinmobile.png))
+![Join Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoinmobile.png)
    
-Classes Page
+### Classes Page
    
-![Classes Page](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/lwireframeclasses.png))
+![Classes Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/lwireframeclasses.png)
 
-![Classes Page Mobile](![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclassesmobile.png))
+![Classes Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclassesmobile.png)
 
-
-Contact Page
+### Contact Page
    
 ![Contact Page](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/wireframecontact.png)
 
