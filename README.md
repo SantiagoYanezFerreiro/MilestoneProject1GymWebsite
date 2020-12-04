@@ -6,7 +6,7 @@
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
 
-![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/responsivedesign.PNG)
+![Spartan Factory Responsive Design](assets/images/responsivedesign.PNG)
  
 Spartan Factory is a website for a fictional gym based in Dublin, Ireland. It's a gym that offers all services people need to get in the best shape of their lives and thrive mentally and physically (Nutrition, Personal Training, Weight Training & Cardio Facilities, Classes, etc). 
 The website features its pricing plans, a FAQ section, the classes and their timetables, the services if offers, testimonials, pricing tables and a contact page with phone, email and address information as well as a form for potential queries. The primary goals of the site are to lead potential customers to the site and get to know the gym, increasing the online presence of the company and its revenue. The site also acts as an information resource to actual members of the gym, while saving money in customer support services.
