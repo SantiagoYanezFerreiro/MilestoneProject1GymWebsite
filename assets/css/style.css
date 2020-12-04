@@ -6,7 +6,7 @@
 
 html,
 body {
-    background-color: rgba(249, 249, 249);
+    background-color: #fff;
     color: #191718;
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-weight: 300;
@@ -218,6 +218,7 @@ nav {
 .carousel-inner {
     height: 600px;
     padding: 0px;
+    background: rgba(0, 0, 0, 0.521);
 }
 
 .carousel img {
