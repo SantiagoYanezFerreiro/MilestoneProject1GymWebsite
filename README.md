@@ -2,7 +2,6 @@
 
 ![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/logo2.png)
 
-
 ![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
@@ -215,6 +214,8 @@ All links function and all images are in the Gitpod repository.
 •	The background-image of the form didn’t look so well initially (too big and not centered). Solved this problem by setting a maximum background size of 750px and background-position: top.
 
 •	The membership-section stretched too much on big screens so needed to set a max-width of 1300px for very wide monitors.
+
+•   Also struggled a bit with Markdown formatting since I haven't done so many README Files and had to make a lot of commits to correct small mistakes.
 
 ## Deployment
 The website was developed using GitPod, committed to git and pushed to GitHub. It was then deployed using Github pages from its GitHub repository following these steps:
