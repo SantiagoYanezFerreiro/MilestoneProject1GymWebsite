@@ -147,7 +147,7 @@ Thank you page that appears after a visitors has succesfully submited a form.
 
 •	The project also uses BootstrapCDN to provide icons from FontAwesome
 
-•	AutoPrefixer 
+•	Auto-Prefixer. Used to make sure css code has all necessary prefixes to work properly on all modern browsers. 
 
 •	Used this extension to make sure the websites works correctly on all browsers.
 
