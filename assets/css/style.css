@@ -340,22 +340,16 @@ nav {
     border-radius: 7px;
     width: 600px;
     margin: 0 auto;
-    background: #fff;
     text-align: center;
     padding-bottom: 30px;
 }
 
-.faqsbox .headingfaqs {
-    border-radius: 7px 7px 0px 0px;
-    background: #e67e22;
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    font-family: "Rubik";
-    -webkit-border-radius: 7px 7px 0px 0px;
-    -moz-border-radius: 7px 7px 0px 0px;
-    -ms-border-radius: 7px 7px 0px 0px;
-    -o-border-radius: 7px 7px 0px 0px;
+.headingfaqs {
+    color: #000;
+}
+
+.section-faqs summary {
+    color: #e67e22;
 }
 
 summary {
@@ -531,7 +525,7 @@ input[type=submit] {
     -ms-border-radius: 140px;
     -o-border-radius: 140px;
     background-color: #e67e22;
-    border: 1px solid #e67e22;
+    border: 1px solid;
     color: #fff;
 }
 
