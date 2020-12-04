@@ -205,10 +205,17 @@ nav {
     margin-bottom: 50px;
 }
 
-.section-testimonials p,
-.section-testimonials h1 {
+.section-testimonials h1,
+p {
     font-weight: 500;
+}
+
+.section-testimonials h1 {
     color: #000;
+}
+
+.section-testimonials p {
+    color: #fff;
 }
 
 .section-testimonials h2 {
@@ -218,7 +225,7 @@ nav {
 .carousel-inner {
     height: 600px;
     padding: 0px;
-    background: rgba(0, 0, 0, 0.521);
+    background: black;
 }
 
 .carousel img {
@@ -231,12 +238,13 @@ nav {
 .blockquote {
     margin-top: 0px;
     color: #000;
+    font-weight: 900;
 }
 
 .clientname {
-    color: #000;
+    color: #fff;
     margin: 0px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .client-review-stars {
