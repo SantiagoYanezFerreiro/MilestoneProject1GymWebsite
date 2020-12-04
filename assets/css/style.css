@@ -68,9 +68,12 @@ section {
 
 /*Eliminate White Space below footer*/
 
-.section-generalinfo,
-.section-services,
 .section-faqs {
+    min-height: 40vh;
+}
+
+.section-generalinfo,
+.section-services {
     min-height: 60vh;
 }
 
@@ -139,7 +142,7 @@ nav {
 .jumbotron {
     font-family: 'Montserrat', sans-serif;
     padding: 40px 0;
-    background: url("../img/gym5.jpg") center center;
+    background: url("../images/gym5.jpg") center center;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -339,7 +342,6 @@ nav {
     margin: 0 auto;
     background: #fff;
     text-align: center;
-    margin-bottom: 20px;
     padding-bottom: 30px;
 }
 
@@ -464,7 +466,7 @@ details {
 /*contact info background image*/
 
 .contactbackground {
-    background-image: url("../img/formphoto2.jpg");
+    background-image: url("../images/formphoto2.jpg");
     background-size: 750px;
     background-position: top;
     background-repeat: no-repeat;
@@ -558,7 +560,7 @@ input[type=submit] {
 }
 
 .modal-content {
-    background: url("../img/weightlifting3.jpg") center center;
+    background: url("../images/weightlifting3.jpg") center center;
     background-size: cover;
 }
 

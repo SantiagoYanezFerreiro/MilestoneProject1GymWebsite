@@ -1,12 +1,12 @@
 # Code Institute: Milestone Project 1
 
-![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/logo2.png)
+![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/logo2.png)
 
 ![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
 
-![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/responsivedesign.PNG)
+![Spartan Factory Responsive Design](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/responsivedesign.PNG)
  
 Spartan Factory is a website for a fictional gym based in Dublin, Ireland. It's a gym that offers all services people need to get in the best shape of their lives and thrive mentally and physically (Nutrition, Personal Training, Weight Training & Cardio Facilities, Classes, etc). 
 The website features its pricing plans, a FAQ section, the classes and their timetables, the services if offers, testimonials, pricing tables and a contact page with phone, email and address information as well as a form for potential queries. The primary goals of the site are to lead potential customers to the site and get to know the gym, increasing the online presence of the company and its revenue. The site also acts as an information resource to actual members of the gym, while saving money in customer support services.
@@ -113,28 +113,28 @@ Thank you page that appears after a visitors has succesfully submited a form.
 
 ### Home Page
    
-![Home Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehome.png)
+![Home Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframehome.png)
 
-![Home Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframehomemobile.png)
+![Home Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframehomemobile.png)
 
 
 ### Join Page
 
-![Join Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoin.png)
+![Join Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframejoin.png)
 
-![Join Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframejoinmobile.png)
+![Join Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframejoinmobile.png)
    
 ### Classes Page
    
-![Classes Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclasses.png)
+![Classes Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframeclasses.png)
 
-![Classes Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframeclassesmobile.png)
+![Classes Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframeclassesmobile.png)
 
 ### Contact Page
    
-![Contact Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframecontact.png)
+![Contact Page](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframecontact.png)
 
-![Contact Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/resources/img/wireframecontactmobile.png)
+![Contact Page Mobile](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/wireframecontactmobile.png)
 
 ## Technologies Used
 •	This project uses HTML, CSS & JavaScript programming languages.
