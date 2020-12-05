@@ -651,6 +651,9 @@ footer p {
     .contactblock p {
         font-size: 90%;
     }
+    .membership-box {
+        margin: 20px 20px;
+    }
 }
 
 
@@ -691,6 +694,7 @@ footer p {
     }
 }
 
+
 /*Small phones - from 0 to 480 px  */
 
 @media only screen and (max-width:480px) {
@@ -709,6 +713,6 @@ footer p {
         font-size: 70%;
     }
     .membership-box {
-        margin: 5px 5px;
+        margin: 20px 20px;
     }
 }
