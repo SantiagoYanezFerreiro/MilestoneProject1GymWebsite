@@ -433,6 +433,7 @@ details {
 .section-services img {
     max-height: 400px;
     margin-bottom: 30px;
+    min-width: 300px;
 }
 
 .section-services ul {
