@@ -1,5 +1,3 @@
-# Spartan Factory
-
 ![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/logo2.png)
 
 ![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
