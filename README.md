@@ -1,4 +1,4 @@
-# Code Institute: Milestone Project 1
+# Spartan Factory
 
 ![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/logo2.png)
 
