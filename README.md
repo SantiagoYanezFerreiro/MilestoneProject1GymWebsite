@@ -1,6 +1,6 @@
 ![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/logo2.png)
 
-![Live Website Link](GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
+![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
 
