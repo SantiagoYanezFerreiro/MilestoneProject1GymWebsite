@@ -1,8 +1,8 @@
 ![Site Logo](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/assets/images/logo2.png)
 
-![Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
+[Live Website Link](https://santiagoyanezferreiro.github.io/MilestoneProject1GymWebsite/index.html)
 
-![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
+[GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/MilestoneProject1GymWebsite)
 
 ![Spartan Factory Responsive Design](assets/images/responsivedesign.PNG)
  
